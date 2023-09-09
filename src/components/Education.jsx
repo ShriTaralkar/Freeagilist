@@ -59,38 +59,38 @@ const Education = () => {
 
     const ActiveBadge = () => {
         return (
-            <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-100 ml-3">Active</span>
+            <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-green-900 text-green-100 ml-3">Active</span>
         )
     }
 
     return (
         <div id="education" className="md:w-5/12">
             <h2 className="text-3xl font-bold">Academic Journey</h2>
-            <ol className="relative mx-5 my-2 py-3 border-l border-gray-200 dark:border-gray-700">
+            <ol className="relative mx-5 my-2 py-3 border-l border-gray-700">
                 {timelineEl.map((item, index) =>
                     <li key={index} className="mb-10 ml-4 md:w-5/6">
                         {item.active && <div className="animate-ping bg-green-700 absolute w-3 h-3 rounded-full mt-2.5 -left-1.5 border border-green-800"></div>}
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-2.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{item.periodFrom} — {item.periodTo}</time>
+                        <div className="absolute w-3 h-3 rounded-full mt-2.5 -left-1.5 borderborder-gray-900 bg-gray-700"></div>
+                        <time className="mb-1 text-sm font-normal leading-nonetext-gray-500">{item.periodFrom} — {item.periodTo}</time>
                         <span className="flex items-center my-2 transition duration-300 hover:text-white">
                             <span className="icon-wrapper text-gray-500"><FaUniversity /></span>
-                            <h3 className="ml-2 text-xl flex items-center font-semibold text-gray-900 dark:text-white">{item.institute} {item.active && <ActiveBadge />}</h3>
+                            <h3 className="ml-2 text-xl flex items-center font-semibold text-white">{item.institute} {item.active && <ActiveBadge />}</h3>
                         </span>
                         <span className="flex items-center my-1 transition duration-300 hover:text-white">
                             <span className="icon-wrapper text-gray-500"><HiLocationMarker /></span>
-                            <p className="ml-2 text-base font-normal text-gray-500 dark:text-gray-400 transition duration-300 hover:text-white">{item.location}</p>
+                            <p className="ml-2 text-base font-normal text-gray-400 transition duration-300 hover:text-white">{item.location}</p>
                         </span>
                         <span className="flex items-center my-1 transition duration-300 hover:text-white">
                             <span className="icon-wrapper text-gray-500"><FaGraduationCap /></span>
-                            <p className="ml-2 text-base font-normal text-gray-500 dark:text-gray-400 transition duration-300 hover:text-white">{item.degree}</p>
+                            <p className="ml-2 text-base font-normal text-gray-400 transition duration-300 hover:text-white">{item.degree}</p>
                         </span>
                         <span className="flex items-start mt-1 mb-4 transition duration-300 hover:text-white">
                             <span className="icon-wrapper mt-1.5 text-gray-500"><CgNotes /></span>
-                            <p className="ml-2 text-base font-normal text-gray-500 text-justify dark:text-gray-400 transition duration-300 hover:text-white">{item.desc}</p>
+                            <p className="ml-2 text-base font-normal text-justify text-gray-400 transition duration-300 hover:text-white">{item.desc}</p>
                         </span>
 
                         {item.enableButton &&
-                            <a href={item.buttonLink} target="_blank" rel="noreferrer" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg transition duration-300 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">{item.buttonText} <svg class="w-3 h-3 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <a href={item.buttonLink} target="_blank" rel="noreferrer" className="inline-flex items-center px-4 py-2 text-sm font-medium border rounded-lg transition duration-300  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700">{item.buttonText} <svg class="w-3 h-3 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                             </svg></a>}
                     </li>

@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import Education from "./components/Education";
 import WorkEx from "./components/WorkEx";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 import Participations from "./components/Participations";
 import Contact from "./components/Contact";
 import Outro from "./components/Outro";
@@ -27,7 +26,6 @@ function App() {
 					<WorkEx />
 				</div>
 				<Projects />
-				<Skills />
 				<Participations />
 				<Contact />
 				<Outro />

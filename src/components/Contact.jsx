@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaDev, FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
-import { SiHashnode, SiLetterboxd } from 'react-icons/si';
+import { FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import Map from "./Map";
@@ -53,47 +52,26 @@ function Contact() {
                     </form>
                     <div className="social-media-icons flex flex-wrap justify-center md:justify-start text-2xl">
                         <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="https://www.linkedin.com/in/yash-kadulkar-b0a877196/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+                            <a href="https://www.linkedin.com/in/shritaralkar/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                         </div>
                         <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="https://www.github.com/kadulkaryash71/" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                            <a href="https://twitter.com/ShriTaralkar" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
                         </div>
                         <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="https://dev.to/kadulkaryash71" target="_blank" rel="noopener noreferrer"><FaDev /></a>
-                        </div>
-                        <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="https://hashnode.com/@kadulkaryash71" target="_blank" rel="noopener noreferrer"><SiHashnode /></a>
-                        </div>
-                        <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="https://www.youtube.com/channel/UCpbcjE30ZYl2ZNBBSADmj_A" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
-                        </div>
-                        <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="https://twitter.com/kadulkaryash71" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-                        </div>
-                        <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="https://letterboxd.com/niceguy21/" target="_blank" rel="noopener noreferrer"><SiLetterboxd /></a>
-                        </div>
-                        <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="https://www.facebook.com/profile.php?id=100004466386662" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-                        </div>
-                        <div className="social-icon mt-2 mx-2 opacity-80 cursor-pointer transition-all duration-300 hover:scale-125 hover:opacity-100">
-                            <a href="mailto:yashkadulkar@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
+                            <a href="mailto:shripad.taralkar@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="social-media-icons fixed right-0 bottom-1/2 rounded-l-2xl text-center bg-gray-800 ring-slate-200 opacity-30 translate-y-1/2 transition-all duration-300 hover:opacity-70 hover:ring-2">
                 <div className="social-icon p-3 cursor-pointer transition-all duration-300 hover:scale-125">
-                    <a target="_blank" rel="noopener noreferrer" href="mailto:yashkadulkar@gmail.com"><MdEmail /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="mailto:shripad.taralkar@gmail.com"><MdEmail /></a>
                 </div>
                 <div className="social-icon p-3 cursor-pointer transition-all duration-300 hover:scale-125">
                     <a target="_blank" rel="noopener noreferrer" href="https://wa.me/918652180053?text=Hey%20there!%20I%20followed%20your%20WhatsApp%20link%20through%20your%20website%20to%20connect%20with%20you%20faster.%20I%20have%20a%20question%20regarding..."><FaWhatsapp /></a>
                 </div>
                 <div className="social-icon p-3 cursor-pointer transition-all duration-300 hover:scale-125">
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/yash-kadulkar-b0a877196/"><FaLinkedin /></a>
-                </div>
-                <div className="social-icon m-0 p-3 cursor-pointer transition-all duration-300 hover:scale-125">
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/kadulkaryash71"><FaGithub /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shritaralkar/"><FaLinkedin /></a>
                 </div>
             </div>
         </div>
