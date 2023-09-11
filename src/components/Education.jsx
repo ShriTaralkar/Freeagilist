@@ -64,7 +64,7 @@ const Education = () => {
     }
 
     return (
-        <div id="education" className="md:w-5/12">
+        <div id="education" className="md:w-3/4">
             <h2 className="text-3xl font-bold">Academic Journey</h2>
             <ol className="relative mx-5 my-2 py-3 border-l border-gray-700">
                 {timelineEl.map((item, index) =>

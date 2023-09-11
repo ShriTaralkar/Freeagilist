@@ -19,12 +19,10 @@ function App() {
 			<header className="App-header fixed w-full top-0 z-10 shadow-sm transition-all duration-300 hover:shadow-slate-300">
 				<Navbar />
 			</header>
-			<main className="text-lg p-5 h-full justify-evenly items-center bg-gradient-to-br from-slate-950 via-slate-900 to-black text-white">
+			<main className="text-lg md:mt-5 p-5 h-full justify-evenly items-center bg-gradient-to-br from-slate-950 via-slate-900 to-black text-white">
 				<Hero />
-				<div className="my-6 flex flex-row-reverse flex-wrap">
-					<Education />
-					<WorkEx />
-				</div>
+				<WorkEx />
+				<Education />
 				<Projects />
 				<Participations />
 				<Contact />

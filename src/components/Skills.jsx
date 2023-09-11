@@ -8,8 +8,8 @@ import { BsDatabaseFillGear } from "react-icons/bs";
 
 const OneSkill = ({ icon, iconName, styles }) => {
     return (
-        <div className={`p-1 flex justify-center rounded-lg border-white cursor-pointer text-sm transition-all duration-300 hover:border-b-4 hover:scale-110 `+ styles}>
-            <span className="icon text-lg mb-2">{icon}</span>
+        <div className={`p-1 hidden md:flex justify-center border-white cursor-pointer text-sm transition-all duration-75 hover:border-2 hover:scale-110 `+ styles}>
+            <span className="icon text-lg mb-1">{icon}</span>
             <span className="name w-full text-center capitalize">{iconName}</span>
         </div>
     )
@@ -55,7 +55,22 @@ function Skills() {
         },
         {
             icon: <SiCplusplus />,
-            name: "Lean / agile / scrum / Kanban / Design Thinking",
+            name: "Lean Design Thinking",
+            styles: "hover:border-b-slate-800 hover:text-slate-400"
+        },
+        {
+            icon: <SiCplusplus />,
+            name: "Agile Design Thinking",
+            styles: "hover:border-b-slate-800 hover:text-slate-400"
+        },
+        {
+            icon: <SiCplusplus />,
+            name: "Scrum Design Thinking",
+            styles: "hover:border-b-slate-800 hover:text-slate-400"
+        },
+        {
+            icon: <SiCplusplus />,
+            name: "Kanban Design Thinking",
             styles: "hover:border-b-slate-800 hover:text-slate-400"
         },
         {
@@ -78,7 +93,7 @@ function Skills() {
     return (
         <div id="skills" className="my-10">
             {/* <h2 className=" text-4xl font-bold">Skills</h2> */}
-            <div className="card-collection my-1 grid grid-cols-6 md:grid-cols-3 lg:grid-cols-3 gap-3">
+            <div className="card-collection my-1 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 md:gap-3">
                 {skillsCol.map((item, index) => <OneSkill key={index} icon={item.icon} iconName={item.name} styles={item.styles} />)}
             </div>
         </div>
