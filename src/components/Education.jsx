@@ -9,24 +9,24 @@ const Education = () => {
 
     const timelineEl = [
         {
-            periodFrom: "September 2023",
-            periodTo: "October 2024",
-            institute: "Dublin City University",
+            periodFrom: "January 2003",
+            periodTo: "June 2006",
+            institute: "Tilak Maharashtra Vidyapeeth",
             active: true,
-            location: "Dublin, Ireland",
-            degree: "Masters in Computing (MSc. in Computing - major in Data Analytics)",
-            desc: "I am thrilled to announce that I will be joining this world renowned institute of Ireland. I am announcing this exclusively here on my portfolio in advance. For more such updates about me, subscribe to my newsletter at the bottom of this page!",
-            enableButton: true,
-            buttonText: "View Offer Letter",
-            buttonLink: "https://drive.google.com/file/d/14wlkfB9ckeRVKYvEkF9rgndEOy1wmJBW/view?usp=drive_link"
+            location: "Pune, India",
+            degree: "Bachelors of Computer Application (BCA. Information Technology and Software Engineering)",
+            //desc: "For more such updates about me, subscribe to my newsletter at the bottom of this page!",
+            //enableButton: true,
+            //buttonText: "View Offer Letter",
+            //buttonLink: "https://drive.google.com/file/d/14wlkfB9ckeRVKYvEkF9rgndEOy1wmJBW/view?usp=drive_link"
         },
         {
-            periodFrom: "August 2019",
-            periodTo: "May 2023",
-            institute: "Vidyalankar Institute of Technology",
+            periodFrom: "Feb 2011",
+            periodTo: "Jan 2013",
+            institute: "Swinburne University of Technology",
             active: false,
-            location: "Mumbai, Maharashtra, India",
-            degree: "Bachelor of Engineering (B.E. in Information Technology, University of Mumbai)",
+            location: "Melbourne, Australia",
+            degree: "Master of Business Administration (MBA. in Information Technology, University of Mumbai)",
             desc: "The course here has empowered me by turning me into an abundant resource of raw talent. Right from the basics like Math & Probability to Probabilistic Theories of AI, from Computer Architecture & Organisation to Cloud Computing, as well as from Principles of Communication to Ethical Hacking & Forensics. It unfolded so well step-by-step that I would often lose myself into the nitty-gritties of any one subject really easily. VIT really helped me find myself as an IT engineer and an orator.",
             enableButton: true,
             buttonText: "Photo Gallery & Mememtos",
@@ -43,18 +43,7 @@ const Education = () => {
             buttonText: "",
             buttonIcon: ""
         },
-        {
-            periodFrom: "June 2005",
-            periodTo: "March 2017",
-            institute: "Holy Angels' School",
-            active: false,
-            location: "Dombivli, Mahrashtra, India",
-            degree: "Sophomore / 10th CBSE",
-            desc: "I could say a lot but I won't.",
-            enableButton: false,
-            buttonText: "",
-            buttonIcon: ""
-        },
+  
     ];
 
     const ActiveBadge = () => {
