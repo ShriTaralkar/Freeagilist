@@ -19,7 +19,7 @@ const Hero = () => {
                 <h1 className="my-3 text-4xl font-bold space-x-2">
                     I am <span className="font-display text-blue-300 rounded-lg cursor-pointer transition-all duration-300 ring-blue-200 hover:px-2 hover:text-white hover:ring-2">
                         Shri Taralkar
-                    </span>,<span className="italic font-thin">Life Coach</span>
+                    </span>,<span className="italic font-thin">Executive and Leadership Coach</span>
                 </h1>
                 <h3 className="my-3 flex text-2xl capitalize font-bold italic">
                     <span className="text-yellow-500"><ReactTyped strings={roles} typeSpeed={50} loop /></span>
@@ -27,7 +27,9 @@ const Hero = () => {
                 <p className="my-3 w-lg text-justify min-w-fit text-slate-400 hover:text-slate-100 cursor-pointer transition-colors duration-300">
                     {/* modify content here */}
 
-                    Shri is a result-driven Agile Coach and IT professional with 25+ years of experience optimizing organizational practices, fostering innovation, and driving sustainable change. Proven mentorship of leaders, agile teams, and enduring success across departments.
+                    Shri Taralkar is a distinguished coach who leverages extensive experience to empower senior leaders and teams, foster a culture of relentless improvement, and champion the customer-centric values that drive organisational success. Explore the world of Shri Taralkar and embark on a transformative journey toward excellence and innovation.
+
+                    With over two decades of expertise in executive and leadership coaching, agile transformation, and cultivating value-centric cultures, Shri Taralkar is a distinguished professional who stands at the forefront of individual and organisational empowerment.
 
                     {/* modify content here */}
                 </p>
@@ -38,7 +40,7 @@ const Hero = () => {
                     <p className="location-text transition-all duration-300 hover:text-white">
                         {/* subject to change */}
                         
-                        Victoria, Australia
+                        Melbourne, Australia
 
                         {/* subject to change */}
                     </p>

@@ -26,22 +26,10 @@ const Education = () => {
             institute: "Swinburne University of Technology",
             active: false,
             location: "Melbourne, Australia",
-            degree: "Master of Business Administration (MBA. in Information Technology, University of Mumbai)",
-            desc: "The course here has empowered me by turning me into an abundant resource of raw talent. Right from the basics like Math & Probability to Probabilistic Theories of AI, from Computer Architecture & Organisation to Cloud Computing, as well as from Principles of Communication to Ethical Hacking & Forensics. It unfolded so well step-by-step that I would often lose myself into the nitty-gritties of any one subject really easily. VIT really helped me find myself as an IT engineer and an orator.",
-            enableButton: true,
-            buttonText: "Photo Gallery & Mememtos",
-        },
-        {
-            periodFrom: "August 2017",
-            periodTo: "March 2019",
-            institute: "VPM's B. N. Bandodkar College of Science",
-            active: false,
-            location: "Thane, Maharashtra, India",
-            degree: "High School Diploma / 12th HSC",
-            desc: "One of the crucial turning points of my life. The coming of age period I spent here was delightful. Those were the days when I studied the hardest in my life amidst the pressure of competitive exams to crack into IITs to further study engineering. Nevermind my dream of studying in IITs, onto the next journey. Here I developed a foundation of Physics, Chemisty, Mathematics, and Computer Science.",
-            enableButton: false,
-            buttonText: "",
-            buttonIcon: ""
+            degree: "Master of Business Administration (MBA. International Business Strategy, Innovation, and IT)",
+            //desc: "The course here has empowered me by turning me into an abundant resource of raw talent. Right from the basics like Math & Probability to Probabilistic Theories of AI, from Computer Architecture & Organisation to Cloud Computing, as well as from Principles of Communication to Ethical Hacking & Forensics. It unfolded so well step-by-step that I would often lose myself into the nitty-gritties of any one subject really easily. VIT really helped me find myself as an IT engineer and an orator.",
+            //enableButton: true,
+            //buttonText: "Photo Gallery & Mememtos",
         },
   
     ];
