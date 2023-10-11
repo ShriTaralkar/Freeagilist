@@ -3,7 +3,7 @@ import { FaGithub, FaFirefoxBrowser, FaReact, FaNodeJs } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 
-const ProjectCard = ({ title, subtitle, from, to, techstack, desc, demo, github }) => {
+const ProjectCard = ({ title, subtitle, from, to, techstack, skills, desc, demo, github }) => {
 
     return (
         <div className="m-2 p-8 bg-slate-600 bg-opactiy-10 ring-2 ring-gray-400 flex flex-col justify-around items-center text-center text-white rounded-xl shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-yellow-300 hover:bg-opacity-30">
@@ -30,20 +30,21 @@ const ProjectCard = ({ title, subtitle, from, to, techstack, desc, demo, github 
 }
 
 
-function Projects() {
+ function Projects() {
 
     const projects = [
         {
-            title: "University Prediction for Post-Graduation",
+            title: "New Ways of Working (NW0W) implementation ",
             subtitle: "UrPG",
-            periodFrom: "November 2022",
+            periodFrom: "September 2020",
             periodTo: "March 2023",
-            techstack: "",
+            //techstack: "",
+            skills: "Business Agility, Leadership, Change management, Agile Project management, Facilitations, Design Thinking, Lean and Scrum",
             desc: "The goal of this project is to predict the chance of a student getting an admit from his/her dream university abroad. It could achieve an 85% accuracy rate. The secondary features include: SOP grading, chatbot using Amazon Lex, and online student network. It was developed using React, Bootstrap, Python — Flask and Tensorflow.",
-            demo: "",
-            github: "https://github.com/kadulkaryash71/university-prediction"
+            //demo: "",
+            //github: "https://github.com/kadulkaryash71/university-prediction"
         },
-        {
+        /*{
             title: "UniMate Connect",
             subtitle: "About the project",
             techstack: "",
@@ -75,6 +76,6 @@ function Projects() {
             </div>
         </div>
     )
-}
+}*/
 
 export default Projects
