@@ -6,7 +6,9 @@ import {
     Popup,
 } from "react-leaflet";
 
-const position = [53.3853349, -6.2614152, 17]
+//const position = [53.3853349, -6.2614152, 17]
+
+const position = [144.946457, -37.840935, 17]
 
 function Map() {
     return (

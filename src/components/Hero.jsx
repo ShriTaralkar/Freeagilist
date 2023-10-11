@@ -6,11 +6,11 @@ import { FaLocationArrow } from "react-icons/fa";
 const Hero = () => {
 
     const roles = [
-        "a Full-stack Web Developer", 
-        "a data analyst", 
-        "a freelance coach", 
-        "a negotiator", 
-        "a leader"
+        "a Full-stack Agile Coach", 
+        "a Facilitator", 
+        "a freelance Trainer", 
+        "a Influencer", 
+        "a Executive & leadership Coach",
     ];
 
     return (

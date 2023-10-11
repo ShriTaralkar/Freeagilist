@@ -34,27 +34,38 @@ const ProjectCard = ({ title, subtitle, from, to, techstack, skills, desc, demo,
 
     const projects = [
         {
-            title: "New Ways of Working (NW0W) implementation ",
-            subtitle: "UrPG",
+            title: "New Ways of Working (NW0W) implementation",
+            subtitle: "NWoW",
             periodFrom: "September 2020",
             periodTo: "March 2023",
             //techstack: "",
-            skills: "Business Agility, Leadership, Change management, Agile Project management, Facilitations, Design Thinking, Lean and Scrum",
-            desc: "The goal of this project is to predict the chance of a student getting an admit from his/her dream university abroad. It could achieve an 85% accuracy rate. The secondary features include: SOP grading, chatbot using Amazon Lex, and online student network. It was developed using React, Bootstrap, Python — Flask and Tensorflow.",
+            skills: "Business Agility, Leadership, Change management, Agile Project management, Facilitations, Design Thinking, Lean and Scrum, agile and scrum Coaching, Influence",
+            desc: "The goal of this Initiative was to adopt Global New Ways of working implementations and change. I had a leadership role in the New Ways of Working at Vanguard. I lead the enterprise Vision, and strategy and cultivate a local roadmap for the regional context. Accelerated the organization's transformation timeline by 2 months, implementing the Ways of Working Strategy to elevate business maturity over an extended 2-year period.", 
             //demo: "",
             //github: "https://github.com/kadulkaryash71/university-prediction"
         },
-        /*{
-            title: "UniMate Connect",
-            subtitle: "About the project",
+        {
+            title: "Lean Portfolio Governance",
+            subtitle: "LPG",
+            periodFrom: "September 2021",
+            periodTo: "March 2023",
+            techstack: "JIRA, Kanban, Weighted Prioritisation, Lean Canvas, Kano model",
+            skills: "Business Agility, Leadership, Change management, Agile Project management, Facilitations, Lean Portfolio managment, Lean and Scrum, Leadership Coaching, Agile",
+            desc: "The goal was to capture and visualise Time-to-Market for projects. Track the time taken to deliver new products or features from ideation to launch. Shorter timeframes indicate increased agility and efficient processes.Return on Investment (ROI): Evaluate the financial impact of your agile initiatives by comparing the costs incurred with the benefits gained, such as increased revenue or cost savings.",
+            //demo: "",
+            //github: "https://github.com/kadulkaryash71/university-prediction"
+        },
+        {
+            title: "Measure what matters - Metrics",
+            subtitle: "MWM",
             techstack: "",
             periodFrom: "March 2023",
             periodTo: "June 2023",
-            desc: "Extending the online student network platform into a full-fledged community platform. Since the GenZ are quite used to various social media platforms, UniMate connect was developed with the intention of faster information flow in a conventional environment. MERN stack was employed in its development. Further developments include GraphQL as well.",
-            demo: "https://g999lw-3000.csb.app/",
-            github: "https://github.com/kadulkaryash71/UniMate"
+            desc: "Measuring the value delivered to customer and stream performance. NPS, ENPS, feature adoption rate, Cycle times, Throughput, Lead time, Defect rate, DORA metrics.",
+            //demo: "https://g999lw-3000.csb.app/",
+            //github: "https://github.com/kadulkaryash71/UniMate"
         },
-        {
+        /*{
             title: "Decentralised Document Storage",
             subtitle: "About the project",
             techstack: "",
