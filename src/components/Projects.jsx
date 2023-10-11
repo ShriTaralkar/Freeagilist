@@ -65,16 +65,6 @@ const ProjectCard = ({ title, subtitle, from, to, techstack, skills, desc, demo,
             //demo: "https://g999lw-3000.csb.app/",
             //github: "https://github.com/kadulkaryash71/UniMate"
         },
-        /*{
-            title: "Decentralised Document Storage",
-            subtitle: "About the project",
-            techstack: "",
-            periodFrom: "February 2023",
-            periodTo: "March 2023",
-            desc: "Blockchain is undergoing a metamorphosis as a field, and each day we learn about significant new advancements and uses. In order to avoid the need for elaborate storage infrastructures, an effort was made to store and access files directly on the blockchain. It was successful in storing both text and image files on the blockchain. The most important component of the project was IPFS, which used the Solidity programming language, together with Ethereum.",
-            demo: "",
-            github: "https://github.com/EcommerceBlockchain/ecommerceblockchain"
-        },
     ]
 
     return (
@@ -87,6 +77,6 @@ const ProjectCard = ({ title, subtitle, from, to, techstack, skills, desc, demo,
             </div>
         </div>
     )
-}*/
+}
 
 export default Projects
