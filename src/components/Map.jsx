@@ -6,9 +6,9 @@ import {
     Popup,
 } from "react-leaflet";
 
-const position = [53.3853349, -6.2614152, 17]
+//const position = [53.3853349, -6.2614152, 17]
 
-//const position = [144.97121, -37.81738]
+const position = [-37.8136, 144.9631]
 
 function Map() {
     return (
@@ -18,7 +18,7 @@ function Map() {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
             <Marker position={position}>
-                <Popup>A marker representing LOGGED IN USER in this city.</Popup>
+                <Popup>A marker representing the service operations from this location.</Popup>
             </Marker>
         </MapContainer>
     )
