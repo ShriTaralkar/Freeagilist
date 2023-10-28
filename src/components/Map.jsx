@@ -8,7 +8,7 @@ import {
 
 //const position = [53.3853349, -6.2614152, 17]
 
-const position = [144.970497, -37.817559, 17]
+const position = [144.97121, -37.81738, 17]
 
 function Map() {
     return (
